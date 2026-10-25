@@ -18,8 +18,7 @@ env/
 
 # Data artifacts (kept out of VCS)
 data/raw/*
-data/processed/*
-data/features/*
+# Include processed data and features
 !data/**/.gitkeep
 
 # MLflow
@@ -28,7 +27,7 @@ mlflow.db
 *.db
 
 # Models / outputs
-artifacts/
+# Include supporting MLOps artifacts
 *.pkl
 *.joblib
 
